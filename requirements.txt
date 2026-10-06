@@ -1,0 +1,6 @@
+Flask
+pycryptodome
+requests
+protobuf
+PyJWT
+danger-ff-version-updater

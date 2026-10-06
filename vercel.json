@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "danger.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "danger.py"
+    }
+  ]
+}
